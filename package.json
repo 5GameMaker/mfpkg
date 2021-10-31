@@ -1,0 +1,27 @@
+{
+  "name": "@buj351/mfpkg",
+  "version": "1.0.0",
+  "description": "Fabric mod manager",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5GameMaker/mfpkg.git"
+  },
+  "author": "buj",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/5GameMaker/mfpkg/issues"
+  },
+  "homepage": "https://github.com/5GameMaker/mfpkg#readme",
+  "dependencies": {
+    "download": "^8.0.0",
+    "mc-curseforge-api": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/download": "^8.0.1",
+    "@types/node": "^16.11.6"
+  }
+}
