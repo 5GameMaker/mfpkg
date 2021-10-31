@@ -1,5 +1,5 @@
 {
-  "name": "@buj351/mfpkg",
+  "name": "mfpkg",
   "version": "1.0.0",
   "description": "Fabric mod manager",
   "main": "build/index.js",

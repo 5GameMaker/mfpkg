@@ -4,7 +4,7 @@ Cool name for a very dirty project
 
 # How it works?
 
-Install this app via `npm i -g @buj351/mfpkg` and you'll be
+Install this app via `npm i -g mfpkg` and you'll be
 able to use `mfpkg` command to install mods for your fabric
 server or client. That script only works for everything thats
 not windows though, so you have to use git bash instead of whatewer
