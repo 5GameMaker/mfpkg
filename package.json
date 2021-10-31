@@ -23,5 +23,8 @@
   "devDependencies": {
     "@types/download": "^8.0.1",
     "@types/node": "^16.11.6"
+  },
+  "bin": {
+    "mfpkg": "build/index.js"
   }
 }

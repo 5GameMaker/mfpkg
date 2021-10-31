@@ -2,3 +2,4 @@ build
 tsconfig.tsbuildinfo
 node_modules
 typings
+test

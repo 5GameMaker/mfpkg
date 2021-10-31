@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createInterface } from 'readline';
 import { getMod, getMods } from 'mc-curseforge-api';
 import { join } from 'path';
@@ -27,7 +29,7 @@ function getValidName(name: string): string {
 }
 
 async function main() {
-    const modsFolder = join(process.cwd(), 'mods');
+    const modsFolder = join(process.cwd(), process.cwd().match(/[\/\\]mods[\/\\]?$/) ? '' : 'mods');
 
     if (!exists(modsFolder)) {
         await mkdir(modsFolder);

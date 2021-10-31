@@ -4,7 +4,7 @@ Cool name for a very dirty project
 
 # How it works?
 
-After you tinker around with environment variables a bit, you'll be
+Install this app via `npm i -g @buj351/mfpkg` and you'll be
 able to use `mfpkg` command to install mods for your fabric
 server or client. That script only works for everything thats
 not windows though, so you have to use git bash instead of whatewer
@@ -33,7 +33,3 @@ no. too lazy for that
 ## How can I uninstall/toggle mods?
 
 Just delete them from your mods directory
-
-## Can I just do npx mfpkg instead?
-
-no.
